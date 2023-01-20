@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+  /*--- Start Parallax Style --*/
+  .parallax {
+    background: url("../../assets/hlogo.jpeg") repeat fixed 50%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position: 50% 90%;
+  }
+  
+  .parallax-inner {
+    padding-bottom: 0%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start; */
+  }
+  
+  .div1 , .div2 , .div3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .div2 {
+   
+  }
+  
+  /*--- End Parallax Style --*/
+  
+  
+  /*--- Start Container --*/
+  .img-bx{
+    padding: auto;
+  }
+
+  .img-bx h2{
+    font-size: x-large;
+  }
+  
+  .circlebox {
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* img {
+    vertical-align: middle;
+    border-style: none;
+    display: block;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  img a:hover {
+    transform: scale(3); 
+  } */
+  
+  .thumbnail {
+    /* overflow: hidden;
+    width: 250px;
+    height: 250px;
+    z-index: 999;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s ease-in-out;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease; */
+    width: 250px;
+    height: 250px;
+    display:block; 
+    z-index:999; 
+    cursor: pointer;
+  }

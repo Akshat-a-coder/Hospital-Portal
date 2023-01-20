@@ -1,0 +1,156 @@
+.nav{
+    height: 150px;
+    background-color: black;
+}
+.spacer{
+    margin-top: 20px;
+}
+.img1 {
+    height: 560px;
+    width: 770px;
+}
+.right {
+    margin-top: 130px;
+    position: absolute;
+    float: right;
+    margin-left: 20px;
+}
+.heading {
+    color: #999999;
+    font-family: "mont",Tahoma,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.85px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.history{
+    margin-top: -10px;
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5769B0;
+    font-weight: bold;
+}
+.text{
+    width: 660px;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.7);
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+hr.hr-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+  .section-lead {
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+  }
+  .spacer2 {
+    margin-left: 500px;
+  }
+  .service a {
+    color: #5769B0;
+    display: block;
+  }
+  .left2{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 130px;
+  }
+
+  .comp2 {
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+  }
+  .img2{
+    height: 560px;
+    width: 770px;
+  }
+  .right2{
+    margin-top: 40px;
+    float: right;
+  }
+  .service h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #56ceba;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+  }
+  
+  .services-grid {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .service {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  .service i {
+    font-size: 3.45rem;
+    margin: 1rem 0;
+  }
+  
+  .service1 i,
+  .service1 h4,
+  .service1 .cta {
+    color: #5769B0;
+  }
+  
+  
+  .service2 i,
+  .service2 h4,
+  .service2 .cta {
+    color: #5769B0;
+  }
+  
+
+  
+  .service3 i,
+  .service3 h4,
+  .service3 .cta {
+    color: #9c42ca;
+  }
+  .service:hover {
+    transform: scale(1.1);
+  }
+  
+  .service .cta span {
+    font-size: 0.6rem;
+  }
+  
+  .service > * {
+    flex: 1 1 100%;
+  }
+  
+  .service .cta {
+    align-self: flex-end;
+  }
+  .icon {
+    font-size: 36px;
+    color: green;
+  }
