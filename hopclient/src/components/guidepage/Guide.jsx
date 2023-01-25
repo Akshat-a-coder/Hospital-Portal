@@ -3,7 +3,7 @@ import './guide.css';
 function Guide(){
     return(
         <>
-        <div className='mainhead'>
+        <div className='guide--mainhead'>
             <div>
                 <h5>Appointments</h5>
                 <p>Take an appointment and be on time for the same and inform the hospital staff if you cannot keep your appointment.

@@ -7,39 +7,39 @@
 
 /* FOOTER CSS */
 
-.footer{
+.footer--footer{
     background-color: rgb(235, 246, 255);
     margin-top: 20px;
 }
 
-.footer1-mobile , .footer2-mobile{
+.footer--footer1-mobile , .footer--footer2-mobile{
     display: none;
 }
 
-.footer-tablet{
+.footer--footer-tablet{
     display: none;
 }
 
-#footer-logo img{
+#footer--footer-logo img{
     width: 250px;
     height: 200px;
 }
 
-#footer-logo{
+#footer--footer-logo{
     width: 40%;
     display: flex;
     justify-content: center;
 }
 
 
-.reachus-section{
+.footer--reachus-section{
     width: 64%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
 }
 
-/* .location{
+/* .footer--location{
     width: 25%;
     margin: auto;
     margin-top: 20px;
@@ -50,81 +50,81 @@
 } */
 
 
-.address-footer , .contact-footer , .gmail-footer{
+.footer--address-footer , .footer--contact-footer , .footer--gmail-footer{
     margin: 10px 4px 0px 0px;
 }
 
-.contact-footer a span, .gmail-footer a span , .address-footer a span{
+.footer--contact-footer a span, .footer--gmail-footer a span , .footer--address-footer a span{
     margin: 0px 5px 0px 5px;
     vertical-align: middle;
     color: dodgerblue;
 }
 
-.contact-footer a , .address-footer a , .gmail-footer a{
+.footer--contact-footer a , .footer--address-footer a , .footer--gmail-footer a{
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-.contact-footer a:hover , .address-footer a:hover , .gmail-footer a:hover{
+.footer--contact-footer a:hover , .footer--address-footer a:hover , .footer--gmail-footer a:hover{
     color: dodgerblue;
 }
 
-.facebook-footer a span, .instagram-footer a span , .linkdin-footer a span{
+.footer--facebook-footer a span, .footer--instagram-footer a span , .footer--linkdin-footer a span{
     margin: 0px 5px 0px 5px;
     color: dodgerblue;
 }
 
-.about-footer{
+.footer--about-footer{
     width: 40%;
 }
 
-.guide-footer{
+.footer--guide-footer{
     width: 60%;
 }
 
-.about-guide{
+.footer--about-guide{
     display: flex;
     width: 36%;
  }
 
-.about-footer div ul , .guide-footer div ul{
+.footer--about-footer div ul , .footer--guide-footer div ul{
     list-style: none;
 }
 
-.about-footer div ul li, .guide-footer div ul li, h4{
+.footer--about-footer div ul li, .footer--guide-footer div ul li, .footer--footer-h4{
     margin: 5px;
 }
 
-.about-footer div ul li a, .guide-footer div ul li a{
+.footer--about-footer div ul li a, .footer--guide-footer div ul li a{
     cursor: pointer;
 }
 
-.about-footer div ul li a:hover, .guide-footer div ul li a:hover{
+.footer--about-footer div ul li a:hover, .footer--guide-footer div ul li a:hover{
     text-decoration: underline;
 }
 
-.vertical-line2 , .vertical-line3{
+.footer--vertical-line2 , .footer--vertical-line3{
     border-left: 1px solid black;
     height: 100px;
     margin: 50px 10px 0px 5px;
 }
 
-.vertical-line1{
+.footer--vertical-line1{
     display: none;
 }
 
-.footer1{
+.footer--footer1{
     display: flex;
 }
 
-#follow-us{
+#footer--follow-us{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.social-link{
+.footer--social-link{
     width: 30%;
     margin: auto;
     display: flex;
@@ -134,22 +134,22 @@
     background-color: transparent;
 }
 
-.social-link div a span{
+.footer--social-link div a span{
     vertical-align: middle;
 }
 
-.social-link div:hover{
+.footer--social-link div:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
 
-.footer2{
+.footer--footer2{
     text-align: center;
     padding: 10px;
     margin-top: 10px ;
 }
 
-.location{
+.footer--location{
     position: relative;
     transition:800ms ease all;
     width: 25%;
@@ -161,16 +161,16 @@
     padding: 10px;
 }
 
-  .location div a{
+  .footer--location div a{
     text-decoration: none;
     color: black
 }
 
-  .location:hover{
+  .footer--location:hover{
     background-color: transparent;
 }
 
-  .location:before,.location:after{
+  .footer--location:before,.footer--location:after{
     content:'';
     position: absolute;
     top:0;
@@ -181,14 +181,14 @@
     transition:400ms ease all;
 }
 
-  .location:after{
+  .footer--location:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
 }
 
-  .location:hover:before,.location:hover:after{
+  .footer--location:hover:before,.footer--location:hover:after{
     width:100%;
     transition:800ms ease all;
 }
@@ -196,52 +196,52 @@
 
 @media only screen and (max-width: 1160px){
 
-    .footer-tablet{
+    .footer--footer-tablet{
         display: block;
         background-color: rgb(235, 246, 255);
         margin-top: 10px;    
     }
 
-    .social{
+    .footer--social{
         width: 60%;
     }
 
-    .social-link{
+    .footer--social-link{
         margin-top: 20px;
     }
 
-    .location{
+    .footer--location{
         margin-top: 20px;
         width: 30%;
         padding: 8px;
     }
 
-    .footer1{
+    .footer--footer1{
         flex-direction: column;
     }
 
-    .reachus-section{
+    .footer--reachus-section{
         width: 100%;
     }
 
-    #footer-logo{
+    #footer--footer-logo{
         width: 40%;
     }
 
-    .footer{
+    .footer--footer{
         display: none;
     }
 
-    .social-flex{
+    .footer--social-flex{
         display: flex;
     }
 
-    .about-guide{
+    .footer--about-guide{
         margin-top: 20px;
         width: 100%;
     }
 
-    .about-footer , .guide-footer{
+    .footer--about-footer , .footer--guide-footer{
         width: 50%;
         text-align: center;
     }
@@ -250,70 +250,70 @@
 
  @media only screen and (max-width: 680px){
 
-    .footer-mobile{
+    .footer--footer-mobile{
         background-color: rgb(235, 246, 255);
     }
 
-    .about-footer div h4 span , .guide-footer div h4 span{
+    .footer--about-footer div h4 span , .footer--guide-footer div h4 span{
         vertical-align: middle;
         float: right;
     }
 
-    .footer1 , .footer2{
+    .footer--footer1 , .footer--footer2{
         display: none;
     }
 
-    .footer2-mobile{
+    .footer--footer2-mobile{
         text-align: center;
         padding: 10px;
         margin-top: 10px ;
     }
 
-    .footer1-mobile , .footer2-mobile{
+    .footer--footer1-mobile , .footer--footer2-mobile{
         display: block;
     }
 
-    #footer-logo{
+    #footer--footer-logo{
         width: 100%;
         margin: auto;
     }
 
-    .contact-list{
+    .footer--contact-list{
         text-align: center;
         margin-top: 30px;
     }
 
-    .social-link{
+    .footer--social-link{
         margin-top: 10px;
     }
 
-    .location{
+    .footer--location{
         width: 35%;
     }
 
-    .about-guide{
+    .footer--about-guide{
         display: block;
         width: 100%;
         margin-top: 20px;
     }
 
-    .about-footer div ul , .guide-footer div ul{
+    .footer--about-footer div ul , .footer--guide-footer div ul{
         border-bottom: solid dodgerblue 1px;
         border-left: solid dodgerblue 1px;
         border-right: solid dodgerblue 1px;
         margin: 10px;
     }
 
-    h4{
+    .footer--footer-h4{
         border-bottom: solid greenyellow 2px;
     }
 
-    .about-footer , .guide-footer{
+    .footer--about-footer , .footer--guide-footer{
         width: 100%;
         text-align: left;
     }
 
-    #about-footer-display , #guide-footer-display{
+    #footer--about-footer-display , #footer--guide-footer-display{
         display: none;
     }
 

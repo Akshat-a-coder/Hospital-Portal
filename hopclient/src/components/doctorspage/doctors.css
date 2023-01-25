@@ -63,7 +63,7 @@ a:hover {
 
 
 
-.flexbox1{
+.doctors--flexbox1{
   display: flex;
   height: auto;
   flex-direction: row;
@@ -71,14 +71,14 @@ a:hover {
   flex-wrap: wrap;
   margin-top: 50px;
 }
-.a-box {
+.doctors--a-box {
   display: inline-block;
   width: 700px;
   text-align: left;
 }
 
-.img-container {
-    float: left;
+.doctors--img-container {
+    /* float: left; */
     height: 230px;
     width: 200px;
     overflow: hidden;
@@ -86,14 +86,14 @@ a:hover {
     display: inline-block;
 }
 
-.img-container img {
+.doctors--img-container img {
     transform: skew(0deg, -13deg);
     height: 250px;
     margin: -5px 0px 0px -130px;
 }
 
 
-.inner-skew {
+.doctors--inner-skew {
     display: inline-block;
     border-radius: 20px;
     overflow: hidden;
@@ -106,7 +106,7 @@ a:hover {
     width: 200px;
 }
 
-.text-container {
+.doctors--text-container {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
   padding: 90px 20px 20px 20px;
   border-radius: 20px;
@@ -115,7 +115,7 @@ a:hover {
   line-height: 19px;
   font-size: 14px;
 }
-.text-container1 {
+.doctors--text-container1 {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
   padding: 120px 20px 20px 20px;
   border-radius: 20px;
@@ -125,14 +125,14 @@ a:hover {
   font-size: 14px;
 }
 
-.text-container h3 {
+.doctors--text-container h3 {
   margin: -80px 0px 0px 0px;
   color: #04bcff;
   font-size: 18px;
   padding-left: 190px;
 }
 
-.btn1{
+.doctors--btn1{
   border: 1px solid #3498db;
   background: #3498db;
   padding: 10px 20px;
@@ -146,15 +146,15 @@ a:hover {
   overflow: hidden;
   border-radius: 5px;
 }
-.btn1:hover{
+.doctors--btn1:hover{
   background: white;
   color: #3498db;
 }
 
-.doc-detail {
+.doctors--doc-detail {
   padding-left: 190px;
 }
-.testing_hover{
+.doctors--testing_hover{
 padding: -10px;
 border: 1px solid #eee;
 border-radius: 8px;
@@ -165,7 +165,7 @@ margin-left: 10px;
 margin-bottom: 20px;
 }
 
-.padding_right15 {
+.doctors--padding_right15 {
   margin-left: 10px;
 }
 /* a {
@@ -173,21 +173,21 @@ margin-bottom: 20px;
   color: #337ab7;
   text-decoration: none;
 } */
-.img-responsive{
+.doctors--img-responsive{
   display: block;
   height: auto;
   max-width: 100%;
 }
-.padding0{
+.doctors--padding0{
   margin-top: 50px;
   padding: 10px;
   margin-left: 50px;
   text-align: left;
 }
-.col-md-2{
+.doctors--col-md-2{
   position: relative;
 }
-.doctorname{
+.doctors--doctorname{
   margin-left: 40px;
   margin-top: -140px;
 }
@@ -199,10 +199,10 @@ margin-bottom: 20px;
 } */
 
 
-.desig{
+.doctors--desig{
   margin-top: -10px;
 }
-.btn2{
+.doctors--btn2{
   word-wrap: break-word;
   height: 60px;
   width: 140px;
@@ -221,15 +221,16 @@ margin-bottom: 20px;
   margin-top: -110px;
   margin-left: 415px;
 }
-.btn2:hover{
+.doctors--btn2:hover{
   background: white;
   color: #337ab7;
 }
-btn-space{
-  float: right;
-}
 
-.split {
+/* .btn-space{
+  float: right;
+} */
+
+.doctors--split {
   height: 200px;
   width: 400px;
   position: relative;
@@ -239,12 +240,12 @@ btn-space{
   padding-top: 20px;
 }
 
-.left {
+.doctors--left {
   left: 0;
   background-color: #111;
 }
 
-.right {
+.doctors--right {
   margin-top: 589px;
   position: absolute;
   float: right;
@@ -252,7 +253,7 @@ btn-space{
   background-color: white;
 }
 
-.centered {
+.doctors--centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -260,11 +261,11 @@ btn-space{
   text-align: center;
 }
 
-.centered img {
+.doctors--centered img {
   width: 150px;
   border-radius: 50%;
 }
-.btn3{
+.doctors--btn3{
   float: right;
   border: 1px solid #3498db;
   background: #3498db;
@@ -280,21 +281,21 @@ btn-space{
   overflow: hidden;
   border-radius: 5px;
 }
-.btn3:hover{
+.doctors--btn3:hover{
   background: white;
   color: #3498db;
 }
-.degree{
+.doctors--degree{
   font-weight: bold;
 }
 @media screen and (max-width: 720px ) {
-  .a-box {
+  .doctors--a-box {
    display: inline-block;
    width: 240px;
    text-align: center;
  }
 
- .img-container {
+ .doctors--img-container {
      height: 230px;
      width: 200px;
      overflow: hidden;
@@ -304,13 +305,13 @@ btn-space{
      margin-top: 10px;
  }
 
- .img-container img {
+ .doctors--img-container img {
      transform: skew(0deg, -13deg);
      height: 250px;
      margin: -5px 0px 0px -130px;
  }
 
- .inner-skew {
+ .doctors--inner-skew {
      display: inline-block;
      border-radius: 20px;
      overflow: hidden;
@@ -323,7 +324,7 @@ btn-space{
      width: 200px;
  }
 
- .text-container {
+ .doctors--text-container {
    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
    padding: 120px 20px 20px 20px;
    border-radius: 20px;
@@ -334,12 +335,12 @@ btn-space{
    height: 260px;
  }
 
- .text-container h3 {
+ .doctors--text-container h3 {
    margin: -5px 0px 10px 0px;
    color: #04bcff;
    font-size: 18px;
  }
- .doc-detail {
+ .doctors--doc-detail {
    height: 500px;
    margin-top: 0px;
    margin-left: 10px;
@@ -347,22 +348,22 @@ btn-space{
    display: flex;
    flex-direction: column;
  }
- .degree{
+ .doctors--degree{
    width: 200px;
    word-wrap: break-word;
    margin-left: -185px;
  }
- .text-container h3 {
+ .doctors--text-container h3 {
    margin: -10px -10px 0px 0px;
    color: #04bcff;
    font-size: 18px;
    padding-left: 0px;
  }
- .text{
+ .doctors--text{
    width: 200px;
    margin-left: -185px;
  }
- .btn1{
+ .doctors--btn1{
    border: 1px solid #3498db;
    background: #3498db;
    padding: 10px 20px;
@@ -376,14 +377,14 @@ btn-space{
    overflow: hidden;
    border-radius: 5px;
  }
- .appointment_btn{
+ .doctors--appointment_btn{
    margin-top: 110px;
  }
- .appointment_btn1{
+ .doctors--appointment_btn1{
    margin-top: 50px;
    margin-left: -574px;
  }
- .btn3{
+ .doctors--btn3{
    width: 173px;
    float: right;
    border: 1px solid #3498db;

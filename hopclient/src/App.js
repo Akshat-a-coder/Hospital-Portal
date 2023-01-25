@@ -3,12 +3,12 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 // import Registration from './components/registration/Registration';
 // import Section from './components/homepage/Homepage';
-import Thirdsection from './components/Thirdsection';
+// import Thirdsection from './components/Thirdsection';
 // import Collage from './components/collage/Collage';
 import Value from './container/values/Value';
 // import Counter from './container/counter/Counter';
 import { Route, Routes } from 'react-router-dom';
-import { Home,Aboutus,Guide,Gallery,Registration,Services,Feedback,Apoint, Doctors} from './components';
+import { Home,Aboutus,Guide,Gallery,Registration,Services,Feedback,Apoint, Doctors,Login} from './components';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Route path='/feedback' element = {<Feedback/>} />
         <Route path='/registration' element = {<Registration/>} />
         <Route path='/doctors' element = {<Doctors/>} />
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       <Footer/>
 {/* 

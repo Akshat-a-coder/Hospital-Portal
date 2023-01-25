@@ -1,9 +1,12 @@
+import React from 'react';
+// import { images } from './constants';
 import './Aboutus.css';
+import {About} from '../../container';
 
 function Aboutus(){
     return(
         <>
-        <div>This is about page</div>
+        <About/>
         </>
     )
 }

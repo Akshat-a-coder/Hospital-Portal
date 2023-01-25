@@ -1,27 +1,27 @@
 
-.navbarpart1{
+.navbar--navbarpart1{
     width: 100%;
     background-color: rgb(235, 246, 255);
     display: flex;
     justify-content: right;
 }
 
-.navbarpart1 #logo{
+.navbar--navbarpart1 #navbar--logo{
     display: none;
 }
 
-.contact , .gmail{
+.navbar--contact , .navbar--gmail{
     display: flex;
     padding: 5px;
 }
 
-.contact a span, .gmail a span{
+.navbar--contact a span, .navbar--gmail a span{
     margin: 0px 5px 0px 5px;
     vertical-align: middle;
     color: dodgerblue;
 }
 
-.navbarpart2{
+.navbar--navbarpart2{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -29,34 +29,34 @@
     margin-right: 50px;
 }
 
-.navbar-menubtn{
+.navbar--navbar-menubtn{
     display: flex;
     justify-content: center;
 }
 
-.navbar-menu{
+.navbar--navbar-menu{
     justify-content: center;
     align-items: center;
 }
 
-.navbar-menu div ul {
+.navbar--navbar-menu div ul {
     /* margin: 0px 100px 0px 100px; */
     font-size: 15px;
     display: flex;
     overflow: hidden;
 }
 
-/* .navbar-menu div ul li Link{
+/* .navbar--navbar-menu div ul li Link{
     text-decoration: none;
     color: black;
 } */
 
-.nav-items{
+.navbar--nav-items{
     text-decoration: none;
     color: black;
 }
 
-.navbar-menu div ul li{
+.navbar--navbar-menu div ul li{
     margin: 20px;
     cursor: pointer;
     overflow: hidden;
@@ -64,14 +64,14 @@
 }
 
 
-.navbar-menu div ul li:hover{
+.navbar--navbar-menu div ul li:hover{
     background-color: rgb(54, 154, 254);
     color: white;
     transform: scale(1.2);
     transition: 0.5s;
 }
 
-.navbar-menubtn button{
+.navbar--navbar-menubtn button{
     background-color: rgb(54, 154, 254);
     color: white;
     /* border: none; */
@@ -81,11 +81,11 @@
     cursor: pointer;
 }
 
-.navbar-menubtn button:hover{
+.navbar--navbar-menubtn button:hover{
     background-color: dodgerblue;
 }
 
-#logo{
+#navbar--logo{
     position: absolute;
     top: 0;
     left: 20px;
@@ -94,92 +94,92 @@
     /* width: 30%; */
 }
 
-#logo img{
+#navbar--logo img{
     width: 220px;
     height: 170px;
     vertical-align: middle;
 }
 
-.hamburger , .cross{
+.navbar--hamburger , .navbar--cross{
     display: none;
 }
 
-.slide{
+.navbar--slide{
     background-color: rgb(235, 246, 255);
     width: 100%;
     height: 90vh;
 }
 
 @media (min-width: 320px) and (max-width: 545px){
-    .navbarpart1{
+    .navbar--navbarpart1{
         width: 100%;
         justify-content: center;
     }
 
-    .contact , .gmail{
+    .navbar--contact , .navbar--gmail{
         padding: 2px;
     }
 
-    .navbarpart2{
+    .navbar--navbarpart2{
         width: 100%;
         display: block;
     }
 
-    .navbar-menu{
+    .navbar--navbar-menu{
         display: none;
         background-color: rgb(235, 246, 255);
     }
 
-    .navbar-menu div ul{
+    .navbar--navbar-menu div ul{
         display: block;
         margin: 0px 0px 0px 0px;
     }
 
-    .navbar-menu div ul li{
+    .navbar--navbar-menu div ul li{
         text-align: center;
         margin-right: 0px;
     }
 
-    .navbar-menubtn button{
+    .navbar--navbar-menubtn button{
         margin:10px 5px 5px 5px;
     }
 
-    .navbar-menubtn{
+    .navbar--navbar-menubtn{
         justify-content: center;
         flex-direction: column;
     }
 
-    #hidden{
+    #navbar--hidden{
         display: block;
     }
 
-    #logo{
+    #navbar--logo{
         width: 90%;
     }
 
-    #logo img{
+    #navbar--logo img{
         width: 200px;
     }
 
-    .hamburger{
+    .navbar--hamburger{
         display: none;
         font-size: 40px;
         margin-right: 4px;
     }
 
-    #hide-cross{
+    #navbar--hide-cross{
         display: block;
         font-size: 30px;
         margin-right: 4px;
     }
 
-    #hide-hamburger{
+    #navbar--hide-hamburger{
         display: block;
         font-size: 40px;
         margin-right: 4px;
     }
     
-    .logo-hamburger{
+    .navbar--logo-hamburger{
         display: flex;
         align-items: center;
     }
@@ -188,98 +188,98 @@
 
  @media (min-width: 546px) and (max-width: 1000px){
 
-    .navbarpart1{
+    .navbar--navbarpart1{
         width: 100%;
         justify-content: center;
         background-color: white;
         align-items: center;
     }
 
-    .navbarpart2 #logo{
+    .navbar--navbarpart2 #navbar--logo{
         display: none;
     }
 
-    .navbarpart1 #logo{
+    .navbar--navbarpart1 #navbar--logo{
         display: block;
     }
 
-    .navbarpart2{
+    .navbar--navbarpart2{
         width: 100%;
         display: block;
     }
 
-    .navbar-menu{
+    .navbar--navbar-menu{
         display: block;
         background-color: rgb(235, 246, 255);
     }
 
-    .navbar-menu div ul{
+    .navbar--navbar-menu div ul{
         justify-content: center;
         margin: 0px;
     }
 
-    .navbar-menu div ul {
+    .navbar--navbar-menu div ul {
         font-size: 12px;
     }
 
-    .navbar-menu div ul li{
+    .navbar--navbar-menu div ul li{
         text-align: center;
         margin:4px;
     }
 
-    .navbar-menubtn button{
+    .navbar--navbar-menubtn button{
         width: 25%;
         margin: 5px;
     }
 
-    .navbar-menubtn{
+    .navbar--navbar-menubtn{
         justify-content: center;
     }
 
  }
 
  @media (min-width: 1001px) and (max-width: 1330px){
-    .navbarpart1{
+    .navbar--navbarpart1{
         width: 100%;
         justify-content: center;
         align-items: center;
         background-color: white;
     }
 
-    .navbarpart2 #logo{
+    .navbar--navbarpart2 #navbar--logo{
         display: none;
     }
 
-    .navbarpart1 #logo{
+    .navbar--navbarpart1 #navbar--logo{
         display: block;
     }
 
-    .navbarpart2{
+    .navbar--navbarpart2{
         width: 100%;
         display: block;
     }
 
-    .navbar-menu{
+    .navbar--navbar-menu{
         display: flex;
         background-color: rgb(235, 246, 255);
     }
 
-    .navbar-menu div ul{
+    .navbar--navbar-menu div ul{
         justify-content: center;
         margin: 0px;
     }
 
-    .navbar-menu div ul li{
+    .navbar--navbar-menu div ul li{
         text-align: center;
         margin:4px;
     }
 
-    .navbar-menubtn button{
+    .navbar--navbar-menubtn button{
         width: 40%;
         margin:5px;
     }
 
-    .navbar-menubtn{
+    .navbar--navbar-menubtn{
         justify-content: center;
     }
  }

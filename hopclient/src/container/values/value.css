@@ -1,9 +1,9 @@
- .all{
-    /* background-color: rgb(235, 246, 255); */
+ /* .value--all{
+    background-color: rgb(235, 246, 255);
  } 
- 
+  */
 
- .qoute{
+ .value--qoute{
      font-size: 40px; 
      padding-left: 5%;
      padding-right: 2%;
@@ -15,14 +15,14 @@
      display: flex;
  }
  
- .content{
+ .value--content{
     margin-top: 0%;
     padding-top: 0%;
     display: flex;
     width: 100%;
  }
  
- .alltext{
+ .value--alltext{
     padding-left: 1%; 
     font-size: 20px ;
     color: black;
@@ -31,7 +31,7 @@
  } 
  
  
- .C1,.C2,.C3,.C4,.C5,.C6,.C7{
+ .value--C1,.value--C2,.value--C3,.value--C4,.value--C5,.value--C6,.value--C7{
     
    padding-top: 3%;
    padding-left: 5%;
@@ -43,7 +43,7 @@
  
  
  
- .circle-img {
+ .value--circle-img {
  
    width: 800px;
    /* height: 800px; */
@@ -55,7 +55,7 @@
  }
  
  
- .circle-img img{
+ .value--circle-img img{
  
     width: 400px;
     height: 400px;
@@ -63,7 +63,7 @@
     padding-left: 5%;
  }
  
- .C1 img,.C2 img,.C3 img,.C4 img,.C5 img,.C6 img,.C7 img{
+ .value--C1 img,.value--C2 img,.value--C3 img,.value--C4 img,.value--C5 img,.value--C6 img,.value--C7 img{
     width: 40px;
     height: 40px;
     border-radius: 50%; 
@@ -79,7 +79,7 @@
  
  @media  screen and (max-width:1150px){
        
-    .C1,.C2,.C3,.C4,.C5,.C6,.C7{
+    .value--C1,.value--C2,.value--C3,.value--C4,.value--C5,.value--C6,.value--C7{
     
        padding-top: 5%;
        padding-right: 2%;
@@ -91,11 +91,11 @@
  
  @media  screen and (max-width:850px) {
     
-    .title{
+    .value--title{
        font-size: 40px;
     }
  
-    .qoute{
+    .value--qoute{
  
       font-size: 25px; 
       display: flex;
@@ -107,27 +107,27 @@
  
  
  
-   .circle-img{
+   .value--circle-img{
       width: 300px;
       height: 300px;
       padding-left: 1%;
       margin-left: 0%;
       padding-right: 2%;
     } 
-    .circle-img img{
+    .value--circle-img img{
      
      width: 360px;
      height: 360px;
      
     }
-    .alltext
+    .value--alltext
     {
       padding-left: 12%;
       font-size: 17px;
     }
  
  
-    .all{
+    .value--all{
        padding-bottom: 10%;
     }
  
@@ -137,7 +137,7 @@
  @media screen and (max-width:650px) {
  
     
-    .title{
+    .value--title{
        font-size: 50px;
        display: flex;
        justify-content: center;
@@ -145,34 +145,34 @@
     }
  
  
-   .quote1{
+   .value--quote1{
        font-size: 30px;
        display: flex;
        justify-content: center;
        align-items: center;
    }  
-   .circle-img{
+   .value--circle-img{
        display: none;
     }
     
-    .alltext{
+    .value--alltext{
        font-size: 15px;
     }
  
-    .C1 img,.C2 img,.C3 img,.C4 img,.C5 img,.C6 img,.C7 img{
+    .value--C1 img,.value--C2 img,.value--C3 img,.value--C4 img,.value--C5 img,.value--C6 img,.value--C7 img{
        margin-right: 10%;
        margin-left: 0%;
     }
  }
  @media screen and (max-width:400px){
  
-    .title{
+    .value--title{
  
        font-size: 40px;
        padding-bottom: 5%;
     } 
     
-    .qoute{
+    .value--qoute{
        font-size: 20px;
        padding-left: 5%;
        margin-left: 3%;
@@ -181,17 +181,17 @@
        padding-bottom: 5%;
     }
     
-    .alltext{
+    .value--alltext{
        font-size: 15px;
        margin-right: 2%;
     }
  
-    .C1 img,.C2 img,.C3 img,.C4 img,.C5 img,.C6 img,.C7 img{
+    .value--C1 img,.value--C2 img,.value--C3 img,.value--C4 img,.value--C5 img,.value--C6 img,.value--C7 img{
        margin-right: 10%;
        margin-left: 0%;
     }
  
-    .C1,.C2,.C3,.C4,.C5,.C6,.C7{
+    .value--C1,.value--C2,.value--C3,.value--C4,.value--C5,.value--C6,.value--C7{
        padding-top: 8%;
        display: flex;
        justify-content: center;

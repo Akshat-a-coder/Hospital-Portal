@@ -6,9 +6,9 @@ function Services(){
           <div>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="anim.css" />
-  <div className="margin" />
-  <section className="parallax">
-    <div className="parallax-inner">
+  <div className="services--margin" />
+  <section className="services--parallax">
+    <div className="services--parallax-inner">
       {/* <div class="  img-bx">
 				<h2>ICU</h2>
 				<div class="circlebox"><a href="#home"><img alt="ICU" class="thumbnail"
@@ -75,103 +75,103 @@ function Services(){
 							src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU"></a></div>
 
 			</div> */}
-      <div className="div1">
-        <div className="  img-bx">
+      <div className="services--div1">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
-        <div className="  img-bx">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
-        <div className="  img-bx">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
-        <div className="  img-bx">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="div2">
-        <div className="  img-bx">
-          <h2>ICU</h2>
-          <div className="circlebox">
-            <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
-            </a>
-          </div>
-        </div>
-        <div className="  img-bx">
-          <h2>ICU</h2>
-          <div className="circlebox">
-            <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
-            </a>
-          </div>
-        </div>
-        <div className="  img-bx">
-          <h2>ICU</h2>
-          <div className="circlebox">
-            <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
       </div>
-      <div className="div3">
-        <div className="  img-bx">
+      <div className="services--div2">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
-        <div className="  img-bx">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
-        <div className="  img-bx">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
-        <div className="  img-bx">
+      </div>
+      <div className="services--div3">
+        <div className="services--img-bx">
           <h2>ICU</h2>
-          <div className="circlebox">
+          <div className="services--circlebox">
             <a href="#home">
-              <img alt="ICU" className="thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+            </a>
+          </div>
+        </div>
+        <div className="services--img-bx">
+          <h2>ICU</h2>
+          <div className="services--circlebox">
+            <a href="#home">
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+            </a>
+          </div>
+        </div>
+        <div className="services--img-bx">
+          <h2>ICU</h2>
+          <div className="services--circlebox">
+            <a href="#home">
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
+            </a>
+          </div>
+        </div>
+        <div className="services--img-bx">
+          <h2>ICU</h2>
+          <div className="services--circlebox">
+            <a href="#home">
+              <img alt="ICU" className="services--thumbnail" src="https://sanjeevanihospitalmalad.com/assets/img/facilities/icu.png" title="ICU" />
             </a>
           </div>
         </div>
       </div>
     </div>
    </section>
-  <div className="margin" />
+  <div className="services--margin" />
 </div>
         </>
     )

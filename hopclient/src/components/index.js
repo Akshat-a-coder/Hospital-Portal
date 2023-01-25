@@ -7,6 +7,7 @@ import Services from './servicespage/Services';
 import Feedback from './feedbackpage/Feedback';
 import Apoint from './apointmentpage/Apoint';
 import Doctors from './doctorspage/Doctors';
+import Login from './login/Login';
 
 export {
     Home,
@@ -18,4 +19,5 @@ export {
     Feedback,
     Apoint,
     Doctors,
+    Login,
 };

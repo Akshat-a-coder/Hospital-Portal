@@ -4,30 +4,30 @@
     margin: 0%;
 }
 
-.mainhead{
+.guide--mainhead{
     width: 90%;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-.mainhead div h5{
+.guide--mainhead div h5{
     font-size: 25px;
     text-decoration: orange 5px underline;
     
 }
 
-.mainhead div{
+.guide--mainhead div{
     margin-top: 20px;
 }
 
-.mainhead div p{
+.guide--mainhead div p{
     font-size: 20px;
     margin-top: 10px;
     margin-left: 40px;
 }
 
-.mainhead div ul li{
+.guide--mainhead div ul li{
     font-size: 20px;
     margin-top: 10px;
     margin-left: 40px;

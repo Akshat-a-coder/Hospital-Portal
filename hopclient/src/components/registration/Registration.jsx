@@ -4,7 +4,7 @@ import './registration.css';
 
 const Registration = () => (
   <>
-  <link rel="stylesheet" type="text/css" href="index.css" />
+  {/* <link rel="stylesheet" type="text/css" href="index.css" />
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,37 +14,37 @@ const Registration = () => (
     href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="./css/main.css" />
-  <title>Credit Card - Input Form</title>
-  <div className="container">
-    <div className="form">
+  <link rel="stylesheet" href="./css/main.css" /> */}
+  {/* <title>Credit Card - Input Form</title> */}
+  <div className="registration--container">
+    <div className="registration--form">
       <h1>QUICK REGISTER</h1>
       <form action="#">
-        <div className="flex-row">
+        <div className="registration--flex-row">
           <label htmlFor="card-number">Patient Name</label>
           <input
             name="card-number"
-            className="card-number"
+            className="registration--card-number"
             type="text"
             defaultValue=""
           />
         </div>
-        <div className="flex-row">
+        <div className="registration--flex-row">
           <label htmlFor="card-name">Patient Age (उम्र) </label>
           <input
             name="card-name"
-            className="card-name"
+            className="registration--card-name"
             type="number"
             defaultValue={35}
           />
         </div>
-        <div className="flex-row">
+        <div className="registration--flex-row">
           <table>
             <tbody>
               <tr>
-                <td className="table-column">
+                <td className="registration--table-column">
                   <label htmlFor="month">Sex/Gender (लिंग)</label>
-                  <select name="year" id="year-select">
+                  <select name="year" id="registration--year-select">
                     <option value="Year" selected="" disabled="">
                       Gender(लिंग)
                     </option>
@@ -63,20 +63,20 @@ const Registration = () => (
      <input name="card-name" class="card-name" type="text" value="Female">
      
    </div> */}
-        <div className="flex-row">
+        <div className="registration--flex-row">
           <label htmlFor="card-name">
             Mobile Number
             <h6 font-color="red"> *OTP will be sent on this number </h6>
           </label>
           <input
             name="card-name"
-            className="card-name"
+            className="registration--card-name"
             type="text"
             defaultValue=""
           />
         </div>
-        <div className="flex-row">
-          <input className="card-submit" type="submit" />
+        <div className="registration--flex-row">
+          <input className="registration--card-submit" type="submit" />
         </div>
       </form>
       {/*       <img class="card-image" src="https://pngimg.com/uploads/credit_card/credit_card_PNG99.png" alt="Card image">

@@ -1,7 +1,7 @@
-import '..//section.css';
-import hlogo from '../../assets/hlogo.jpeg';
+import './section.css';
+// import {images} from "../../assets"
 import grouppic from "../../assets/doctor-group-removebg-preview.png";
-import { Values, Counter, Chooseus, About} from '../../container';
+import { Values, Counter, Chooseus, About , Blog} from '../../container';
 import hos from '../../assets/draw_svg20210507-22909-1vmwztx.svg.png'
 
 
@@ -9,17 +9,17 @@ function Navbar(){
 
     return(
         <>
-            <section className="parallax">
-                <div className="parallax-inner">
-                    <div className='sec'>
+            <section className="home--parallax">
+                <div className="home--parallax-inner">
+                    <div className='home--sec'>
                         <div><img src={grouppic}></img></div>
                     </div>
                 </div>
-                <div className='abouthos'>
-                    <div className='hosimg'>
+                <div className='home--abouthos'>
+                    <div className='home--hosimg'>
                         <img src={hos}></img>
                     </div>
-                    <div className='hoscontent'>
+                    <div className='home--hoscontent'>
                         <h2>About Prateek Hospital</h2>
                         {/* <h4>live peaceful</h4> */}
                         <p>Established in 1999 with the sole aim of providing excellent medical treatment at affordable price Sanjeevani surgical and General Hospital is the brain child of its Founder and Medical Director Dr. Sunil Agrawal. The name "SANJEEVANI" is inspired from the name of Dr. Sunil Agrawal’s mother & also the life saving herb in Ayurveda.</p>
@@ -127,7 +127,7 @@ function Navbar(){
             {/* <About/> */}
             <Counter/>
             <Chooseus/>
-
+            <Blog/>
         </>
     )
 }

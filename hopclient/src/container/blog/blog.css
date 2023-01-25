@@ -1,0 +1,50 @@
+.blog--App {
+    background-color: #F9F9F9;
+    height: 400px;
+}
+
+.blog--image {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 850px;
+    float: right;
+    
+}  
+.blog--text {
+    position: absolute;
+    word-wrap: break-word;
+    max-width: 400px;
+    margin-left: 365px;
+    margin-top: 80px;
+
+}
+.blog--info {
+    color: grey;
+}
+.blog--btn {
+    background-color: #009578;
+    color: black;
+    display: inline-flex;
+    height: 46px;
+    width: 100px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+.blog--btn_,
+.blog--btn_icon {
+ display: inline-flex;
+ align-items: center;
+ padding: 0 6px;
+ color: #fff;
+ height: 100%;
+}
+.blog--btn_icon{
+    font-size: 1.5em;
+    background: rgba(0,0,0,0.08);
+    width: 100%;
+}
